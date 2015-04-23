@@ -5,22 +5,69 @@ body{
 h1, h2, h3{
 	color: black;
 }
-h2{font-size: 18px;}
-footer{font-size: 12px;}
+h1{
+	font-size: 28px;
+}
+
+h2{
+	font-size: 24px;
+}
+
+footer{
+	font-size: 12px;
+}
+
 thead{
 	height: 40px;
 	font-size: 14px;
 	text-align: left;
-
 }
+
+th{
+	padding: 0px 0px 10px;
+}
+
 td:first-child{
 	width: 100px;
 	font-weight: bold;
 }
+
 tr:hover{
 	background-color: #FEFFDB;
 	cursor: pointer;
 }
 h2#Instructions{
 	margin-top: 40px;
+}
+
+hr{
+	color: #dddddd;
+	clear: both;
+	margin-top: 45px;
+}
+
+img{
+	width: 100px;
+	float: left;
+	margin-top: 15px;
+}
+
+#button{
+	border: 1px solid #444444;
+	border-radius: 10px;
+	background-color: #FEFFDB;
+	padding: 5px 25px 25px;
+	width: 300px;
+}
+
+#top{
+	background-color: #D3D3D3;
+	height: 100px;
+}
+button{
+	float: right;
+	border:	1px solid #8ABD2B;
+	background-color: #C8F279;
+	height: 30px;
+	margin-top: 15px;
 }
